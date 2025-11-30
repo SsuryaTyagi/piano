@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano App</title>
+</head>
+<body>
+
+    <h1 id="display" style="color:white; text-align:center; justify-content: center; margin-top:50px;">
+        Press any key to play...
+    </h1>
+
+    <div id="main"></div>
+</body>
+<script src="index.js"></script>
+</html>
+
+<style>
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+        background-color: black;
+    }
+        #main{
+            height:88vh;
+            width:100%;  
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items:flex-end;
+            position: relative;
+        }
+
+    .piano{
+        background-color: white;
+        border-radius: 10px;
+        width: 100px;
+        height: 200px;
+        /* margin-bottom: 10px; */
+        color: black;
+        font-size: larger;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+</style>
